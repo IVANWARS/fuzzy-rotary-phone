@@ -1,12 +1,37 @@
-﻿ int N = 322;
-  
- {
-    if ( N % 2 == 0)
+﻿ 
+// Вторая задача
+
+int x = - 5;
+int y = 4;
+
+{
+    if( x > 0 && y > 0)
+
     {
-        Console.WriteLine("чётноне число");
+        Console.WriteLine("первая четверть");
+
     }
-    else
+
+    if( x < 0 && y > 0)
+
     {
-        Console.WriteLine("нечётное число");
+        Console.WriteLine(" вторая четверть");
+
     }
- }
+
+   if( x < 0 && y < 0)
+
+   {
+       Console.WriteLine(" третья четверть");
+
+   }
+
+   if( x > 0 && y < 0)
+
+   {
+       Console.WriteLine(" четвёртая четверть");
+
+   }
+
+}
+
