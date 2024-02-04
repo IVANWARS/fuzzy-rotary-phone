@@ -1,8 +1,8 @@
 ﻿ 
 // Вторая задача
 
-int x = - 5;
-int y = 4;
+int x =  5;
+int y = - 4;
 
 {
     if( x > 0 && y > 0)
@@ -34,4 +34,18 @@ int y = 4;
    }
 
 }
+  
 
+  // Третья задача
+
+ int n = 85;
+ int firstDigit = n /10;
+ int secondDigit = n % 10;
+  
+if (firstDigit > secondDigit)
+{
+   Console.WriteLine(firstDigit);
+}
+ else
+
+ Console.WriteLine(secondDigit);
