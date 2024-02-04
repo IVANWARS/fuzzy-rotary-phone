@@ -1,51 +1,70 @@
-﻿ 
+﻿// Первая задача, ???
+
+int n = 322;
+
+
+if (n / 2)
+{
+    {
+        Console.WriteLine("чётное");
+    }
+    else
+    {
+        Console.WriteLine("нечётное");
+    }
+}
+
+
 // Вторая задача
 
-int x =  5;
-int y = - 4;
+//int x =  5;
+//int y = - 4;
 
-{
-    if( x > 0 && y > 0)
+//{
+// if( x > 0 && y > 0)
 
-    {
-        Console.WriteLine("первая четверть");
+// {
+//Console.WriteLine("первая четверть");
 
-    }
+// }
 
-    if( x < 0 && y > 0)
+// if( x < 0 && y > 0)
 
-    {
-        Console.WriteLine(" вторая четверть");
+// {
+// Console.WriteLine(" вторая четверть");
 
-    }
+// }
 
-   if( x < 0 && y < 0)
+//if( x < 0 && y < 0)
 
-   {
-       Console.WriteLine(" третья четверть");
+//  {
+// Console.WriteLine(" третья четверть");
 
-   }
+//}
 
-   if( x > 0 && y < 0)
+// if( x > 0 && y < 0)
 
-   {
-       Console.WriteLine(" четвёртая четверть");
+//{
+// Console.WriteLine(" четвёртая четверть");
 
-   }
+//}
 
-}
-  
+//}
 
-  // Третья задача
 
- int n = 85;
- int firstDigit = n /10;
- int secondDigit = n % 10;
-  
-if (firstDigit > secondDigit)
-{
-   Console.WriteLine(firstDigit);
-}
- else
+// Третья задача
 
- Console.WriteLine(secondDigit);
+//int n = 85;
+//int firstDigit = n /10;
+//int secondDigit = n % 10;
+
+//if (firstDigit > secondDigit)
+//{
+// {
+// Console.WriteLine(firstDigit);
+//}
+//else
+//{
+// Console.WriteLine(secondDigit);
+//}
+//}
